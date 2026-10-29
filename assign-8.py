@@ -74,3 +74,10 @@ print(classification_report(y_test, rf_pred, target_names=names))
 print("Top 5 important features:")
 importance = pd.Series(rf_model.feature_importances_, index=data.feature_names)
 print(importance.sort_values(ascending=False).head(5).round(4))
+
+
+
+ 
+# Ensemble Learning- 
+# Make use of Random Forest Classifier model on suitable open access dataset for 
+# monitoring the performance in comparison with a baseline machine learning model.  
