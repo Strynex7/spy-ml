@@ -65,3 +65,8 @@ rows.append({
 
 results = pd.DataFrame(rows)
 print(results)
+
+# Feature Transformation- 
+# Apply PCA algorithm for dimensionality reduction on suitable open access high 
+# dimensional dataset and observe the influence of feature reduction on model 
+# performance and computational efficiency.  
