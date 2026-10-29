@@ -34,3 +34,8 @@ for i in range(10):
 
 plt.tight_layout()
 plt.show()
+
+
+# Classification Analysis-   
+# Utilize Support Vector Machines (SVM) for classifying images of handwritten digits 
+# into their respective numerical classes (0 to 9).  
