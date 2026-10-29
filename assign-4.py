@@ -33,3 +33,10 @@ print("F1-Score:", f1_score(y_test, y_pred))
 
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred, target_names=data.target_names))
+
+
+
+# Regression Analysis-  
+# Test for the performance of a binary classification model using logistic regression on 
+# a suitable open-access dataset by analyzing the confusion matrix, precision, recall, 
+# and F1-score.   
