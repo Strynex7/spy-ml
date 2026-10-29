@@ -68,3 +68,10 @@ if lda_time < pca_time:
     print("LDA is faster in this run")
 else:
     print("PCA is faster in this run")
+
+
+
+# Feature Transformation- 
+# Make use of LDA algorithm for dimensionality reduction for the same open access 
+# high dimensional dataset used in assignment 1 and observe its performance and 
+# computational efficiency with the PCA algorithm. 
