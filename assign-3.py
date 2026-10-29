@@ -55,3 +55,15 @@ for name, model in models.items():
     print("RMSE:", np.sqrt(mean_squared_error(y_test, pred)))
     print("MAE:", mean_absolute_error(y_test, pred))
     print("Time:", elapsed, "seconds")
+
+
+
+
+# Regression Analysis- 
+# Discover the price of the ride from a given pickup point to the agreed drop-off 
+# location. Use a suitable open-access dataset. Perform following tasks: 
+# a. Pre-process the dataset.  
+# b. Record outliers. 
+# c. Check the correlation. 
+# d. Implement linear regression and ridge, Lasso regression models. 
+# e. Compute and compare their respective scores like R2, RMSE, etc
