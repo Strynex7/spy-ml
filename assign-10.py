@@ -175,3 +175,15 @@ while True:
         print(game.board.reshape(3, 3))
         print("Agent Result:", "Win" if result == 1 else "Draw" if result == 0 else "Loss")
         break
+
+
+
+
+# Reinforcement Learning- 
+# Build a Tic-Tac-Toe game using reinforcement learning in Python by using following 
+# tasks 
+#  a. Setting up the environment.  
+#  b. Defining the Tic-Tac-Toe game. 
+#  c. Building the reinforcement learning model. 
+#  d. Training the model.  
+#  e. Testing the model. 
